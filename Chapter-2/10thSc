@@ -1,0 +1,9 @@
+f=10
+x=f
+y="$"$x
+echo $y
+
+foo=10
+x=foo
+eval p="$"$x
+echo $p

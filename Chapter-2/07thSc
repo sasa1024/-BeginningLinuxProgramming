@@ -1,0 +1,10 @@
+if [ ./7thSc ]
+then
+	echo "is 0"
+else
+	echo "npe"
+
+fi
+
+exit 0
+

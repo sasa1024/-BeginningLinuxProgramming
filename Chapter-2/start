@@ -1,0 +1,3 @@
+version=classic
+PATH=/user/local/old_bin:/user/bin:/bin:.
+PS1="classic> "

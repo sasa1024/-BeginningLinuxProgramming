@@ -1,0 +1,4 @@
+if test -f firstSc
+then
+echo yeap
+fi

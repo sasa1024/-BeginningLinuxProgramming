@@ -1,0 +1,4 @@
+text="$1"
+cat text | mail -s "Alert $2" s.hosseini21@gmail.com
+exit 0
+

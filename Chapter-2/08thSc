@@ -1,0 +1,11 @@
+s="global"
+f(){
+	local s="loccal"
+	echo "in f"
+	echo "$s"
+}
+
+f
+echo "in global"
+echo "$s"
+

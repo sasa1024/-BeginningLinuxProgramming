@@ -1,0 +1,23 @@
+#!/bin/bash
+
+clear
+
+t="ls"
+
+while [ "$t" != "bye" ]
+
+do
+
+echo -n ">>>"
+read t
+
+case "$t" in
+hi* | hello* | hey* ) echo "greeting";;
+ho*y ) echo ":|";;
+"bye" ) echo "bawsh :|";;
+* ) echo "khob??? :|";;
+esac
+
+done
+
+exit 0
