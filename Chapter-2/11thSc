@@ -1,0 +1,4 @@
+echo we are in 11th Script... wirte your name!
+read b_man_che
+exec ./05thSc
+exit 0
