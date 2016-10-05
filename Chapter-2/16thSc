@@ -1,0 +1,7 @@
+x=0
+x=$(expr $x + 1)
+
+y=0
+y=$(($y+1))
+echo $y
+exit 0

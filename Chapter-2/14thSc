@@ -1,6 +1,7 @@
-for i in 1 2 3 4 5 6 7 8 9
-do
-	unset
-done
 
-exit 0
+while :
+do
+	echo -n ">>"
+	read t
+	grep $t ./05thSc
+done

@@ -1,0 +1,6 @@
+cat <<1
+hello
+yeap
+1
+
+exit 0
